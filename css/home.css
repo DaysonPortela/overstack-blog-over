@@ -1,0 +1,29 @@
+.structure-home {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "headline"
+    "description"
+    "info"
+    "content"
+    "infoFooter"
+    "featured"
+    "footer";
+}
+
+.structure .headline {
+  position: relative;
+}
+
+.left {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  top: 250px;
+}
+
+.right {
+  position: absolute;
+  right: 100px;
+  top: 250px;
+}
